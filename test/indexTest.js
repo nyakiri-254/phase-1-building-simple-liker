@@ -1,3 +1,11 @@
+//load dom
+document.addEventListener("DOMContentLoded", function(){
+
+  
+})
+
+
+
 const sinon = require( 'sinon' );
 const helpers = require( './helpers' );
 const chai = require( 'chai' );
@@ -10,4 +18,5 @@ describe( "main.js", () => {
     let modal = document.querySelector('.hidden')
     expect(modal).not.to.equal(null)
   } )
-} )
+})
+document.addEventListener("DOMContentLoded",)

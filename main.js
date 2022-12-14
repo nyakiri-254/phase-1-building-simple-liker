@@ -4,6 +4,31 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+document.addEventListener(DOMcontentLoder , function(EMPTY_HEART){
+fetch ("http://mimicServer.example.com") 
+.then(res=> res.data() {
+  result =error  
+} .catch((e)=> {
+  if (failurestatus){console.log =error;
+    
+  }})
+)}
+  
+)
+const modal = document.querySelector('hidden',);
+  setTimeout((modal) =>{
+    console.log("show after 3 seconds");
+  } , 3000)
+  if(returnSuccess) {return FULL_HEART}
+
+
+
+const activatedHeart = document.getElementById("activated-heart").style.color= "red";
+activatedHeart.removeEventListener("click',activated-heart"){
+  const result= document.querySelector('result',);
+  result.innerHTML=EMPTY_HEART
+}
+fun
 
 
 
@@ -23,3 +48,5 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
     }, 300);
   });
 }
+//let modal = document.querySelector('.hidden')
+   // expect(modal).not.to.equal(null)
